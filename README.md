@@ -30,8 +30,22 @@ dex/
   backend/          FastAPI service, agents, domain models, storage adapters
   frontend/         Next.js dashboard and architecture explorers
   docs/             Product vision, architecture, roadmap, and developer guides
-  infra/            Docker Compose and local infrastructure configuration
+  docker-compose.yml Local app and storage stack
 ```
+
+## Quick Start
+
+```bash
+docker compose up --build
+```
+
+Then open:
+
+- Frontend: `http://localhost:3000`
+- Backend: `http://localhost:8000`
+- API health: `http://localhost:8000/health`
+
+For manual setup, see `docs/DEVELOPMENT.md`.
 
 ## Development Phases
 
