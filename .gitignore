@@ -49,3 +49,7 @@ logs/
 
 # Docker
 *.local
+
+# Local planning and status documents (not for VCS)
+DEX_PROJECT.md
+DEX_STATUS.md
